@@ -12,7 +12,9 @@
 
 ## Projektübersicht
 
-Dieses Projekt analysiert die Bevölkerungsstruktur der Stadt Ingolstadt anhand mehrerer Open-Data-Datensätze. Im Fokus stehen Migrationshintergrund, Herkunftsregionen, Altersstruktur sowie deren räumliche Verteilung auf Ebene der Stadtbezirke.
+Dieses Projekt analysiert die Herkunft, Altersstruktur und räumliche Verteilung der Bevölkerung mit Migrationshintergrund in der Stadt Ingolstadt auf Basis mehrerer Open-Data-Datensätze.
+
+Im Rahmen der Analyse wurden außerdem Daten zur Gesamtbevölkerung sowie zu Personen ohne Migrationshintergrund einbezogen, um Unterschiede zwischen den Bevölkerungsgruppen sichtbar zu machen.
 
 Der Schwerpunkt liegt auf der Datenintegration, Datenaufbereitung, explorativen Datenanalyse (EDA), statistischen Auswertung sowie der Visualisierung demografischer Kennzahlen.
 
