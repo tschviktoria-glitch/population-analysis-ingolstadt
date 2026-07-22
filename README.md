@@ -1,4 +1,4 @@
-# Analyse der Herkunft und Altersverteilung von Migranten in Ingolstadt
+# Analyse der Herkunfts- und Altersstruktur der Bevölkerung nach Stadtbezirken in Ingolstadt
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-orange)
@@ -12,13 +12,11 @@
 
 ## Projektübersicht
 
-Dieses Projekt analysiert die Herkunft, Altersstruktur und räumliche Verteilung der Bevölkerung mit Migrationshintergrund in der Stadt Ingolstadt auf Basis mehrerer Open-Data-Datensätze.
+Dieses Projekt analysiert die Herkunftsstruktur, Altersstruktur sowie die räumliche Verteilung der Bevölkerung in Ingolstadt auf Basis mehrerer Open-Data-Datensätze.
 
-Im Rahmen der Analyse wurden außerdem Daten zur Gesamtbevölkerung sowie zu Personen ohne Migrationshintergrund einbezogen, um Unterschiede zwischen den Bevölkerungsgruppen sichtbar zu machen.
+Dafür wurden fünf amtliche Datensätze zusammengeführt, bereinigt und analysiert. Im Mittelpunkt stehen Unterschiede zwischen Personen mit und ohne Migrationshintergrund, regionale Besonderheiten der Stadtbezirke sowie die zeitliche Entwicklung der Bevölkerungsstruktur von 2013 bis 2025.
 
-Der Schwerpunkt liegt auf der Datenintegration, Datenaufbereitung, explorativen Datenanalyse (EDA), statistischen Auswertung sowie der Visualisierung demografischer Kennzahlen.
-
-Der gesamte Analyseprozess orientiert sich am **CRISP-DM-Modell** und wurde vollständig in **Python** umgesetzt.
+Der gesamte Analyseprozess wurde nach dem CRISP-DM-Modell umgesetzt und umfasst Datenintegration, Datenaufbereitung, explorative Datenanalyse (EDA), statistische Auswertungen sowie interaktive Geodatenvisualisierungen mit Python.
 
 ### Projektvorschau
 
