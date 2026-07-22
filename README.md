@@ -239,18 +239,6 @@ jupyter notebook
 
 ---
 
-### Räumliche Analyse
-
-#### Ausländische Bevölkerung
-
-![Ausländische Bevölkerung](images/foreign_population_map.png)
-
-#### Deutsche ohne Migrationshintergrund
-
-![Deutsche ohne Migrationshintergrund](images/population_without_migration_background_map.png)
-
----
-
 ## Interaktive Karten
 
 Zusätzlich zu den statischen Visualisierungen wurden zwei interaktive Karten mit **Folium** erstellt.
@@ -259,9 +247,13 @@ Zusätzlich zu den statischen Visualisierungen wurden zwei interaktive Karten mi
 
 🔗 [Interaktive Karte öffnen](https://tschviktoria-glitch.github.io/population-analysis-ingolstadt/maps/ingolstadt_demographics_2025.html)
 
+![Ausländische Bevölkerung](images/foreign_population_map.png)
+
 ### 👥 Altersgruppen nach Stadtbezirken
 
 🔗 [Interaktive Karte öffnen](https://tschviktoria-glitch.github.io/population-analysis-ingolstadt/maps/ingolstadt_age_groups_2025.html)
+
+![Deutsche ohne Migrationshintergrund](images/population_without_migration_background_map.png)
 
 ---
 
