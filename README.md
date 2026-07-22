@@ -1,10 +1,34 @@
-# Analyse der Bevölkerungsstruktur in Ingolstadt mit Python
+# Analyse der Bevölkerungsstruktur in Ingolstadt
+
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Pandas](https://img.shields.io/badge/Pandas-2.x-orange)
+![NumPy](https://img.shields.io/badge/NumPy-2.x-blue)
+![GeoPandas](https://img.shields.io/badge/GeoPandas-Library-green)
+![Folium](https://img.shields.io/badge/Folium-Interactive%20Maps-success)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## Projektübersicht
 
 Dieses Projekt untersucht die Bevölkerungsstruktur der Stadt Ingolstadt anhand mehrerer Open-Data-Datensätze. Ziel war es, demografische Strukturen zu analysieren und Zusammenhänge zwischen Herkunft, Altersstruktur sowie der räumlichen Verteilung der Bevölkerung auf Ebene der Stadtbezirke zu identifizieren.
 
 Das Projekt wurde im Rahmen des Kurses **Data Analytics** durchgeführt und orientiert sich am **CRISP-DM-Prozess**.
+
+---
+
+## Inhaltsverzeichnis
+
+- Projektübersicht
+- Projektziele
+- Datensätze
+- Technologien
+- Projektablauf
+- Herausforderungen
+- Ergebnisse
+- Projektstruktur
+- Visualisierungen
+- Interaktive Karten
+- Kompetenzen
+- Datenquelle
 
 ---
 
@@ -121,20 +145,23 @@ Diese Schritte ermöglichten eine konsistente und vergleichbare Datenbasis für 
 ## Projektstruktur
 
 ```
-Population-Analysis-Ingolstadt
+population-analysis-ingolstadt
 │
-├── data
-│   ├── raw
-│   └── processed
+├── images/
+│   ├── *.png
 │
-├── notebooks
-│   └── Population_Analysis.ipynb
+├── maps/
+│   ├── ingolstadt_demographics_2025.html
+│   ├── ingolstadt_age_groups_2025.html
+│   └── README.md
 │
-├── images
+├── notebooks/
+│   └── ingolstadt_population_analysis.ipynb
 │
-├── requirements.txt
-│
-└── README.md
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
 ```
 
 ---
@@ -143,17 +170,61 @@ Population-Analysis-Ingolstadt
 
 Im Repository befinden sich unter anderem:
 
-- Analyse der Herkunftsregionen
-- Altersstruktur der Bevölkerung
-- Vergleich der Stadtbezirke
-- Korrelationsanalysen
-- Interaktive Karten auf Basis von Folium
-  https://tschviktoria-glitch.github.io/population-analysis-ingolstadt/maps/ingolstadt_demographics_2025.html
-  https://tschviktoria-glitch.github.io/population-analysis-ingolstadt/maps/ingolstadt_age_groups_2025.html
+
+### Herkunftsstruktur
+
+![Herkunftsstruktur](images/Analysen%20zur%20Einwanderungsdynamik%20und%20Herkunftsstruktur%20in%20Ingolstadt.png)
 
 ---
 
-## Erlernte und angewandte Kompetenzen
+### Altersstruktur
+
+![Altersstruktur](images/Anteil%20der%20Altersgruppen%20nach%20Jahren.png)
+
+---
+
+### Demografische Entwicklung
+
+![Demografie](images/Demografische%20Entwicklung_Gesamtstadt%20Ingolstadt.png)
+
+---
+
+## Interaktive Karten
+
+Zusätzlich zu den statischen Visualisierungen wurden zwei interaktive Karten mit **Folium** entwickelt.
+
+- 🗺️ Bevölkerungsstruktur nach Stadtbezirken
+- 👥 Altersgruppen nach Stadtbezirken
+
+Die Karten können direkt im Browser geöffnet werden:
+
+➡️ **Bevölkerungsstruktur**
+
+https://tschviktoria-glitch.github.io/population-analysis-ingolstadt/maps/ingolstadt_demographics_2025.html
+
+➡️ **Altersgruppen**
+
+https://tschviktoria-glitch.github.io/population-analysis-ingolstadt/maps/ingolstadt_age_groups_2025.html
+
+---
+
+## Projektergebnisse
+
+✔ Daten aus fünf Quellen integriert
+
+✔ Datensatz mit 5.226 Beobachtungen erstellt
+
+✔ Zwei interaktive Karten entwickelt
+
+✔ Mehrere statistische Visualisierungen erstellt
+
+✔ Korrelationsanalyse durchgeführt
+
+✔ Vollständiger Analyseprozess nach CRISP-DM umgesetzt
+
+---
+
+## Demonstrierte Kompetenzen
 
 - Data Cleaning
 - Data Preparation
@@ -173,6 +244,14 @@ Im Repository befinden sich unter anderem:
 Open Data Portal der Stadt Ingolstadt
 
 https://ingolstadt.bydata.de/datasets
+
+---
+
+## Projekterfolg
+
+Diese Projektarbeit wurde im Rahmen der Weiterbildung **Data Analytics** erstellt und mit der Bestnote bewertet.
+
+🏆 **Bewertung: 100 von 100 Punkten**
 
 ---
 
