@@ -1,34 +1,46 @@
-# Analyse der Bevölkerungsstruktur in Ingolstadt
+# Analyse der Herkunft und Altersverteilung von Migranten in Ingolstadt
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
-![Pandas](https://img.shields.io/badge/Pandas-2.x-orange)
-![NumPy](https://img.shields.io/badge/NumPy-2.x-blue)
-![GeoPandas](https://img.shields.io/badge/GeoPandas-Library-green)
+![Pandas](https://img.shields.io/badge/Pandas-orange)
+![NumPy](https://img.shields.io/badge/NumPy-blue)
+![SciPy](https://img.shields.io/badge/SciPy-Statistics-blue)
+![GeoPandas](https://img.shields.io/badge/GeoPandas-Geospatial-green)
 ![Folium](https://img.shields.io/badge/Folium-Interactive%20Maps-success)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## Projektübersicht
 
-Dieses Projekt untersucht die Bevölkerungsstruktur der Stadt Ingolstadt anhand mehrerer Open-Data-Datensätze. Ziel war es, demografische Strukturen zu analysieren und Zusammenhänge zwischen Herkunft, Altersstruktur sowie der räumlichen Verteilung der Bevölkerung auf Ebene der Stadtbezirke zu identifizieren.
+Dieses Projekt analysiert die Bevölkerungsstruktur der Stadt Ingolstadt anhand mehrerer Open-Data-Datensätze. Im Fokus stehen Migrationshintergrund, Herkunftsregionen, Altersstruktur sowie deren räumliche Verteilung auf Ebene der Stadtbezirke.
 
-Das Projekt wurde im Rahmen des Kurses **Data Analytics** durchgeführt und orientiert sich am **CRISP-DM-Prozess**.
+Der Schwerpunkt liegt auf der Datenintegration, Datenaufbereitung, explorativen Datenanalyse (EDA), statistischen Auswertung sowie der Visualisierung demografischer Kennzahlen.
+
+Der gesamte Analyseprozess orientiert sich am **CRISP-DM-Modell** und wurde vollständig in **Python** umgesetzt.
+
+### Projektvorschau
+
+![Demografische Entwicklung](images/demographic_development.png)
 
 ---
 
 ## Inhaltsverzeichnis
 
-- Projektübersicht
-- Projektziele
-- Datensätze
-- Technologien
-- Projektablauf
-- Herausforderungen
-- Ergebnisse
-- Projektstruktur
-- Visualisierungen
-- Interaktive Karten
-- Kompetenzen
-- Datenquelle
+- [Projektziele](#projektziele)
+- [Verwendete Datensätze](#verwendete-datensätze)
+- [Verwendete Technologien](#verwendete-technologien)
+- [Highlights](#highlights)
+- [Projektablauf (CRISP-DM)](#projektablauf-crisp-dm)
+- [Herausforderungen](#herausforderungen)
+- [Zentrale Ergebnisse](#zentrale-ergebnisse)
+- [Projektstruktur](#projektstruktur)
+- [Projekt ausführen](#projekt-ausführen)
+- [Beispielvisualisierungen](#beispielvisualisierungen)
+- [Interaktive Karten](#interaktive-karten)
+- [Demonstrierte Kompetenzen](#demonstrierte-kompetenzen)
+- [Datenquelle](#datenquelle)
+- [Projekterfolg](#projekterfolg)
+- [Autor](#autor)
 
 ---
 
@@ -36,10 +48,10 @@ Das Projekt wurde im Rahmen des Kurses **Data Analytics** durchgeführt und orie
 
 Im Rahmen des Projekts wurden folgende Fragestellungen untersucht:
 
-- Aus welchen Regionen stammen die Migranten in Ingolstadt?
+- Aus welchen Regionen stammen Migranten in Ingolstadt?
 - Wie unterscheidet sich die Altersstruktur zwischen den einzelnen Stadtbezirken?
 - Wie verteilen sich Personen mit und ohne Migrationshintergrund innerhalb der Stadt?
-- Besteht ein Zusammenhang zwischen dem Anteil von Personen mit Migrationshintergrund und einer jüngeren Altersstruktur?
+- Besteht ein Zusammenhang zwischen dem Anteil von Personen mit Migrationshintergrund und einer vergleichsweise jüngeren Altersstruktur?
 
 ---
 
@@ -53,13 +65,14 @@ Für die Analyse wurden fünf Open-Data-Datensätze der Stadt Ingolstadt kombini
 - Deutsche mit Migrationshintergrund
 - Deutsche ohne Migrationshintergrund
 
-Durch die Zusammenführung mehrerer Datenquellen konnte ein umfassendes Bild der Bevölkerungsstruktur erstellt werden.
+Durch die Integration mehrerer Datenquellen konnte ein umfassendes Bild der Bevölkerungsstruktur erstellt werden.
 
 ---
 
 ## Verwendete Technologien
 
 - Python
+- Jupyter Notebook
 - Pandas
 - NumPy
 - SciPy
@@ -67,7 +80,22 @@ Durch die Zusammenführung mehrerer Datenquellen konnte ein umfassendes Bild der
 - Folium
 - Matplotlib
 - Seaborn
-- Jupyter Notebook
+- OpenPyXL
+
+---
+
+## Highlights
+
+- 📊 Integration von fünf Open-Data-Datensätzen
+- 📁 Verarbeitung von CSV- und Excel-Daten
+- 🧹 Datenbereinigung und Harmonisierung
+- 🔄 Zusammenführung mehrerer Datenquellen
+- 📈 Explorative Datenanalyse (EDA)
+- 📉 Statistische Korrelationsanalyse
+- 🗺️ Entwicklung von zwei interaktiven Karten mit Folium
+- 📍 Geodatenanalyse mit GeoPandas
+- 📚 Vollständige Umsetzung des CRISP-DM-Prozesses
+- 🏆 Projektbewertung: **100 / 100 Punkte**
 
 ---
 
@@ -104,7 +132,7 @@ Durch die Zusammenführung mehrerer Datenquellen konnte ein umfassendes Bild der
 ### Statistische Analyse
 
 - Korrelationsanalyse zwischen Migrationsanteil und Altersstruktur
-- Zeitliche Entwicklung von 2013 bis 2025
+- Analyse der zeitlichen Entwicklung von 2013 bis 2025
 
 ### Visualisierung
 
@@ -124,7 +152,7 @@ Während der Datenaufbereitung mussten mehrere praktische Herausforderungen gel�
 - Vereinheitlichung von Bezirksbezeichnungen
 - Bereinigung inkonsistenter Einträge
 - Behandlung fehlender Werte
-- Transformation der Daten in ein analysierbares Format
+- Transformation der Daten in ein analysierbares Long-Format
 - Validierung der Datenqualität
 
 Diese Schritte ermöglichten eine konsistente und vergleichbare Datenbasis für die anschließende Analyse.
@@ -133,30 +161,35 @@ Diese Schritte ermöglichten eine konsistente und vergleichbare Datenbasis für 
 
 ## Zentrale Ergebnisse
 
-- Zusammenführung von fünf Open-Data-Datensätzen zu einem konsistenten Analysedatensatz
-- Analyse von insgesamt 5.226 Beobachtungen
+- Integration von fünf Open-Data-Datensätzen zu einem konsistenten Analysedatensatz
+- Analyse von insgesamt **5.226 Beobachtungen**
 - Identifikation regionaler Unterschiede in Herkunft und Altersstruktur
 - Erstellung mehrerer statistischer Visualisierungen
-- Entwicklung interaktiver Karten zur räumlichen Analyse
+- Entwicklung zweier interaktiver Karten zur räumlichen Analyse
 - Nachweis eines stabilen statistischen Zusammenhangs zwischen Migrationsanteil und Altersstruktur (ohne kausale Interpretation)
 
 ---
 
 ## Projektstruktur
 
-```
+```text
 population-analysis-ingolstadt
 │
-├── images/
-│   ├── *.png
+├── images
+│   ├── demographic_development.png
+│   ├── migration_regions.png
+│   ├── age_distribution.png
+│   ├── correlation_analysis.png
+│   ├── foreign_population_map.png
+│   └── population_without_migration_background_map.png
 │
-├── maps/
+├── maps
 │   ├── ingolstadt_demographics_2025.html
 │   ├── ingolstadt_age_groups_2025.html
 │   └── README.md
 │
-├── notebooks/
-│   └── ingolstadt_population_analysis.ipynb
+├── notebooks
+│   └── population_analysis_ingolstadt.ipynb
 │
 ├── .gitignore
 ├── LICENSE
@@ -166,61 +199,69 @@ population-analysis-ingolstadt
 
 ---
 
+## Projekt ausführen
+
+```bash
+git clone https://github.com/tschviktoria-glitch/population-analysis-ingolstadt.git
+
+cd population-analysis-ingolstadt
+
+pip install -r requirements.txt
+
+jupyter notebook
+```
+
+---
+
 ## Beispielvisualisierungen
 
-Im Repository befinden sich unter anderem:
+### Herkunftsregionen
 
-
-### Herkunftsstruktur
-
-![Herkunftsstruktur](images/Analysen%20zur%20Einwanderungsdynamik%20und%20Herkunftsstruktur%20in%20Ingolstadt.png)
+![Herkunftsregionen](images/migration_regions.png)
 
 ---
 
 ### Altersstruktur
 
-![Altersstruktur](images/Anteil%20der%20Altersgruppen%20nach%20Jahren.png)
+![Altersstruktur](images/age_distribution.png)
 
 ---
 
 ### Demografische Entwicklung
 
-![Demografie](images/Demografische%20Entwicklung_Gesamtstadt%20Ingolstadt.png)
+![Demografische Entwicklung](images/demographic_development.png)
+
+---
+
+### Zusammenhang zwischen Migrationshintergrund und Altersstruktur
+
+![Korrelationsanalyse](images/correlation_analysis.png)
+
+---
+
+### Räumliche Analyse
+
+#### Ausländische Bevölkerung
+
+![Ausländische Bevölkerung](images/foreign_population_map.png)
+
+#### Deutsche ohne Migrationshintergrund
+
+![Deutsche ohne Migrationshintergrund](images/population_without_migration_background_map.png)
 
 ---
 
 ## Interaktive Karten
 
-Zusätzlich zu den statischen Visualisierungen wurden zwei interaktive Karten mit **Folium** entwickelt.
+Zusätzlich zu den statischen Visualisierungen wurden zwei interaktive Karten mit **Folium** erstellt.
 
-- 🗺️ Bevölkerungsstruktur nach Stadtbezirken
-- 👥 Altersgruppen nach Stadtbezirken
+### 🌍 Bevölkerungsstruktur nach Stadtbezirken
 
-Die Karten können direkt im Browser geöffnet werden:
+🔗 [Interaktive Karte öffnen](https://tschviktoria-glitch.github.io/population-analysis-ingolstadt/maps/ingolstadt_demographics_2025.html)
 
-➡️ **Bevölkerungsstruktur**
+### 👥 Altersgruppen nach Stadtbezirken
 
-https://tschviktoria-glitch.github.io/population-analysis-ingolstadt/maps/ingolstadt_demographics_2025.html
-
-➡️ **Altersgruppen**
-
-https://tschviktoria-glitch.github.io/population-analysis-ingolstadt/maps/ingolstadt_age_groups_2025.html
-
----
-
-## Projektergebnisse
-
-✔ Daten aus fünf Quellen integriert
-
-✔ Datensatz mit 5.226 Beobachtungen erstellt
-
-✔ Zwei interaktive Karten entwickelt
-
-✔ Mehrere statistische Visualisierungen erstellt
-
-✔ Korrelationsanalyse durchgeführt
-
-✔ Vollständiger Analyseprozess nach CRISP-DM umgesetzt
+🔗 [Interaktive Karte öffnen](https://tschviktoria-glitch.github.io/population-analysis-ingolstadt/maps/ingolstadt_age_groups_2025.html)
 
 ---
 
@@ -232,6 +273,7 @@ https://tschviktoria-glitch.github.io/population-analysis-ingolstadt/maps/ingols
 - Data Integration
 - Explorative Datenanalyse (EDA)
 - Statistische Analyse
+- Korrelationsanalyse
 - Datenvisualisierung
 - Geodatenanalyse
 - Data Storytelling
@@ -253,10 +295,18 @@ Diese Projektarbeit wurde im Rahmen der Weiterbildung **Data Analytics** erstell
 
 🏆 **Bewertung: 100 von 100 Punkten**
 
+Die Bewertung bestätigt die erfolgreiche Umsetzung des gesamten Analyseprozesses – von der Datenintegration und Datenaufbereitung bis zur statistischen Analyse, Visualisierung und Interpretation der Ergebnisse.
+
 ---
 
 ## Autor
 
 **Viktoria Tschuchmann**
 
-Projekt im Rahmen der Weiterbildung **Data Analytics**
+Junior Data Analyst
+
+📧 tschviktoria@gmail.com
+
+🔗 GitHub: https://github.com/tschviktoria-glitch
+
+🔗 LinkedIn: *(Link zu deinem LinkedIn-Profil)*
