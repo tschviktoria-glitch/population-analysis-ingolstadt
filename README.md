@@ -301,4 +301,4 @@ Junior Data Analyst
 
 🔗 GitHub: https://github.com/tschviktoria-glitch
 
-🔗 LinkedIn: *(Link zu deinem LinkedIn-Profil)*
+🔗 LinkedIn: https://www.linkedin.com/in/viktoria-tschuchmann/
