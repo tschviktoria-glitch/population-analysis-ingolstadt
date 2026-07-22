@@ -148,6 +148,8 @@ Im Repository befinden sich unter anderem:
 - Vergleich der Stadtbezirke
 - Korrelationsanalysen
 - Interaktive Karten auf Basis von Folium
+  https://tschviktoria-glitch.github.io/population-analysis-ingolstadt/maps/ingolstadt_demographics_2025.html
+  https://tschviktoria-glitch.github.io/population-analysis-ingolstadt/maps/ingolstadt_age_groups_2025.html
 
 ---
 
