@@ -295,8 +295,6 @@ Die Bewertung bestätigt die erfolgreiche Umsetzung des gesamten Analyseprozesse
 
 **Viktoria Tschuchmann**
 
-Junior Data Analyst
-
 📧 tschviktoria@gmail.com
 
 🔗 GitHub: https://github.com/tschviktoria-glitch
